@@ -1,0 +1,59 @@
+{
+  "blotato_urls": {
+    "short_01_score_88.mp4": "https://database.blotato.io/storage/v1/object/public/public_media/9c4a286d-2192-49bf-91d3-489c55f486db/53970de9-527c-42f8-8c12-e094a9424ef8.mp4",
+    "short_02_score_85.mp4": "https://database.blotato.io/storage/v1/object/public/public_media/9c4a286d-2192-49bf-91d3-489c55f486db/efbbc865-ea0c-4773-85a1-dae8b300d86a.mp4",
+    "short_04_score_82.mp4": "https://database.blotato.io/storage/v1/object/public/public_media/9c4a286d-2192-49bf-91d3-489c55f486db/39d0119f-9976-41ab-8b43-b5f8c8310a30.mp4",
+    "short_05_score_74.mp4": "https://database.blotato.io/storage/v1/object/public/public_media/9c4a286d-2192-49bf-91d3-489c55f486db/db70ce93-fe6b-47a4-a7e1-40f4e1b76f2c.mp4",
+    "short_06_score_62.mp4": "https://database.blotato.io/storage/v1/object/public/public_media/9c4a286d-2192-49bf-91d3-489c55f486db/a283bb8d-19c8-4076-bd2e-f8cc244d67a5.mp4"
+  },
+  "scheduled": [
+    {
+      "platform": "instagram",
+      "filename": "short_01_score_88.mp4",
+      "score": 88,
+      "scheduled_time": "2025-11-23T14:00:00",
+      "submission_id": null,
+      "caption": "\ud83d\udeab\ud83e\udd16 Is employee resistance the real reason AI fails? Let's chat! \ud83d\udcac #AIAdoption #Change",
+      "status": "scheduled"
+    },
+    {
+      "platform": "tiktok",
+      "filename": "short_02_score_85.mp4",
+      "score": 85,
+      "scheduled_time": "2025-11-24T10:00:00",
+      "submission_id": null,
+      "caption": "Why are 90% of AI projects failing? \ud83e\udd14 Let's dive into the hidden truths! \ud83d\udca1 #AI #TechTalk",
+      "status": "scheduled"
+    },
+    {
+      "platform": "youtube",
+      "filename": "short_04_score_82.mp4",
+      "score": 82,
+      "scheduled_time": "2025-11-24T17:00:00",
+      "submission_id": null,
+      "caption": "Struggling with AI agents? \ud83e\udd16 Let's fix that! \ud83d\udcaa What's your biggest challenge? #AI #POC",
+      "status": "scheduled"
+    },
+    {
+      "platform": "youtube",
+      "filename": "short_05_score_74.mp4",
+      "score": 74,
+      "scheduled_time": "2025-11-27T17:00:00",
+      "submission_id": null,
+      "caption": "Why do prototypes flop? \ud83e\udd14 Dive into the POC graveyard with us! \ud83d\udc80 #TechTalk #AI",
+      "status": "scheduled"
+    },
+    {
+      "platform": "tiktok",
+      "filename": "short_06_score_62.mp4",
+      "score": 62,
+      "scheduled_time": "2025-11-28T10:00:00",
+      "submission_id": null,
+      "caption": "Ready to level up your biz? \ud83d\ude80 Let's talk AI agents! What's holding you back? \ud83e\udd14 #AI #Business",
+      "status": "scheduled"
+    }
+  ],
+  "errors": [],
+  "success_count": 5,
+  "error_count": 0
+}

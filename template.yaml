@@ -1,0 +1,69 @@
+name: agent-ruby
+display_name: "Ruby - Social Media Manager"
+description: |
+  Multi-platform content production and distribution agent.
+  Handles video generation (HeyGen), social media posting (Blotato),
+  media management (Cloudinary), and content scheduling.
+version: "2.0"
+author: "Eugene Vyborov"
+
+# Resource requirements
+resources:
+  cpu: "2"
+  memory: "4g"
+
+# Credential schema - Trinity uses this to inject secrets
+credentials:
+  mcp_servers:
+    twitter-mcp:
+      env_vars:
+        - TWITTER_API_KEY
+        - TWITTER_API_SECRET_KEY
+        - TWITTER_ACCESS_TOKEN
+        - TWITTER_ACCESS_TOKEN_SECRET
+    heygen:
+      env_vars:
+        - HEYGEN_API_KEY
+    cloudinary-asset-mgmt:
+      env_vars:
+        - CLOUDINARY_API_KEY
+        - CLOUDINARY_API_SECRET
+        - CLOUDINARY_CLOUD_NAME
+    aistudio:
+      env_vars:
+        - GEMINI_API_KEY
+    giphy:
+      env_vars:
+        - GIPHY_API_KEY
+    mcp-metricool:
+      env_vars:
+        - METRICOOL_USER_TOKEN
+        - METRICOOL_USER_ID
+
+  env_file:
+    - KLAP_API_KEY
+    - KLAP_BASE_URL
+    - BLOTATO_API_KEY
+    - BLOTATO_BASE_URL
+    - BLOTATO_YOUTUBE_ID
+    - BLOTATO_INSTAGRAM_ID
+    - BLOTATO_LINKEDIN_ID
+    - BLOTATO_TWITTER_ID
+    - BLOTATO_THREADS_ID
+    - BLOTATO_TIKTOK_ID
+    - GOFILE_API_TOKEN
+    - GOFILE_ACCOUNT_ID
+    - GOFILE_ROOT_FOLDER
+
+# Git configuration
+git:
+  push_enabled: true
+  commit_paths:
+    - memory/
+    - .claude/memory/
+    - outputs/
+    - CLAUDE.md
+  ignore_paths:
+    - .mcp.json
+    - .env
+    - "*.log"

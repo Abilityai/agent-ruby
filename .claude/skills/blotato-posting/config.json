@@ -1,0 +1,11 @@
+{
+  "_comment": "Credentials loaded from Ruby/.env file. This file contains only account IDs.",
+  "account_ids": {
+    "youtube": "8598",
+    "instagram": "9987",
+    "linkedin": "4180",
+    "twitter": "4790",
+    "threads": "3435",
+    "tiktok": "21395"
+  }
+}

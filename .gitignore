@@ -1,0 +1,41 @@
+# Credentials - NEVER COMMIT
+.mcp.json
+.env
+*.pem
+*.key
+credentials.json
+**/credentials.json
+
+# Claude Code session data
+.claude/projects/
+.claude/statsig/
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+
+# Local overrides
+*.local.md
+*.local.json
+!.env.example
+!.mcp.json.template
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/

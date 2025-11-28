@@ -1,0 +1,138 @@
+{
+  "scheduled": [
+    {
+      "index": 3,
+      "platform": "youtube",
+      "filename": "short_01_score_86.mp4",
+      "score": 86,
+      "scheduled_time": "2025-11-23T17:00:00",
+      "submission_id": null,
+      "status": "scheduled"
+    },
+    {
+      "index": 10,
+      "platform": "instagram",
+      "filename": "short_03_score_82.mp4",
+      "score": 82,
+      "scheduled_time": "2025-11-25T14:00:00",
+      "submission_id": null,
+      "status": "scheduled"
+    },
+    {
+      "index": 11,
+      "platform": "youtube",
+      "filename": "short_04_score_80.mp4",
+      "score": 80,
+      "scheduled_time": "2025-11-25T17:00:00",
+      "submission_id": null,
+      "status": "scheduled"
+    },
+    {
+      "index": 14,
+      "platform": "instagram",
+      "filename": "short_02_score_78.mp4",
+      "score": 78,
+      "scheduled_time": "2025-11-26T14:00:00",
+      "submission_id": null,
+      "status": "scheduled"
+    },
+    {
+      "index": 15,
+      "platform": "youtube",
+      "filename": "short_03_score_78.mp4",
+      "score": 78,
+      "scheduled_time": "2025-11-26T17:00:00",
+      "submission_id": null,
+      "status": "scheduled"
+    },
+    {
+      "index": 18,
+      "platform": "instagram",
+      "filename": "short_06_score_78.mp4",
+      "score": 78,
+      "scheduled_time": "2025-11-27T14:00:00",
+      "submission_id": null,
+      "status": "scheduled"
+    }
+  ],
+  "errors": [
+    {
+      "video": "short_01_score_90.mp4",
+      "platform": "tiktok",
+      "error": "TikTok needs Cloudinary upload - use manual upload"
+    },
+    {
+      "video": "short_01_score_88.mp4",
+      "platform": "instagram",
+      "error": "No video URL"
+    },
+    {
+      "video": "short_02_score_86.mp4",
+      "platform": "tiktok",
+      "error": "TikTok needs Cloudinary upload - use manual upload"
+    },
+    {
+      "video": "short_02_score_85.mp4",
+      "platform": "tiktok",
+      "error": "No video URL"
+    },
+    {
+      "video": "short_03_score_82.mp4",
+      "platform": "instagram",
+      "error": "No video URL"
+    },
+    {
+      "video": "short_04_score_82.mp4",
+      "platform": "youtube",
+      "error": "No video URL"
+    },
+    {
+      "video": "short_01_score_82.mp4",
+      "platform": "tiktok",
+      "error": "TikTok needs Cloudinary upload - use manual upload"
+    },
+    {
+      "video": "short_02_score_82.mp4",
+      "platform": "tiktok",
+      "error": "TikTok needs Cloudinary upload - use manual upload"
+    },
+    {
+      "video": "short_03_score_78.mp4",
+      "platform": "tiktok",
+      "error": "TikTok needs Cloudinary upload - use manual upload"
+    },
+    {
+      "video": "short_04_score_78.mp4",
+      "platform": "tiktok",
+      "error": "TikTok needs Cloudinary upload - use manual upload"
+    },
+    {
+      "video": "short_04_score_78.mp4",
+      "platform": "tiktok",
+      "error": "TikTok needs Cloudinary upload - use manual upload"
+    },
+    {
+      "video": "short_05_score_78.mp4",
+      "platform": "tiktok",
+      "error": "TikTok needs Cloudinary upload - use manual upload"
+    },
+    {
+      "video": "short_05_score_74.mp4",
+      "platform": "youtube",
+      "error": "No video URL"
+    },
+    {
+      "video": "short_05_score_72.mp4",
+      "platform": "tiktok",
+      "error": "TikTok needs Cloudinary upload - use manual upload"
+    },
+    {
+      "video": "short_06_score_62.mp4",
+      "platform": "tiktok",
+      "error": "No video URL"
+    }
+  ],
+  "total": 21,
+  "success_count": 6,
+  "error_count": 15
+}

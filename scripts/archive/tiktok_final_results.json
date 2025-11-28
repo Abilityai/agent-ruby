@@ -1,0 +1,80 @@
+{
+  "blotato_urls": {
+    "short_01_score_90.mp4": "https://database.blotato.io/storage/v1/object/public/public_media/9c4a286d-2192-49bf-91d3-489c55f486db/0ec1f235-e168-4efe-bf14-26f6d464b35d.mp4",
+    "short_02_score_86.mp4": "https://database.blotato.io/storage/v1/object/public/public_media/9c4a286d-2192-49bf-91d3-489c55f486db/4e80f0dd-66d7-46d8-8b04-757a2086ac34.mp4",
+    "short_02_score_82.mp4": "https://database.blotato.io/storage/v1/object/public/public_media/9c4a286d-2192-49bf-91d3-489c55f486db/cf5b6958-f400-4053-8925-bea24b15f96d.mp4",
+    "short_03_score_78.mp4": "https://database.blotato.io/storage/v1/object/public/public_media/9c4a286d-2192-49bf-91d3-489c55f486db/88adf324-f52b-4a9d-ae59-37cf4a076f23.mp4",
+    "short_05_score_78.mp4": "https://database.blotato.io/storage/v1/object/public/public_media/9c4a286d-2192-49bf-91d3-489c55f486db/dc57fffa-ced9-431e-b024-b1fe8602642e.mp4"
+  },
+  "scheduled": [
+    {
+      "platform": "tiktok",
+      "filename": "short_01_score_90.mp4",
+      "score": 90,
+      "scheduled_time": "2025-11-23T10:00:00",
+      "submission_id": null,
+      "status": "scheduled"
+    },
+    {
+      "platform": "tiktok",
+      "filename": "short_02_score_86.mp4",
+      "score": 86,
+      "scheduled_time": "2025-11-23T18:00:00",
+      "submission_id": null,
+      "status": "scheduled"
+    },
+    {
+      "platform": "tiktok",
+      "filename": "short_02_score_82.mp4",
+      "score": 82,
+      "scheduled_time": "2025-11-25T10:00:00",
+      "submission_id": null,
+      "status": "scheduled"
+    },
+    {
+      "platform": "tiktok",
+      "filename": "short_03_score_78.mp4",
+      "score": 78,
+      "scheduled_time": "2025-11-25T18:00:00",
+      "submission_id": null,
+      "status": "scheduled"
+    },
+    {
+      "platform": "tiktok",
+      "filename": "short_05_score_78.mp4",
+      "score": 78,
+      "scheduled_time": "2025-11-27T10:00:00",
+      "submission_id": null,
+      "status": "scheduled"
+    }
+  ],
+  "errors": [
+    {
+      "video": "short_02_score_85.mp4",
+      "error": "No Blotato URL"
+    },
+    {
+      "video": "short_01_score_82.mp4",
+      "error": "No Blotato URL"
+    },
+    {
+      "video": "short_04_score_78.mp4",
+      "error": "No Blotato URL"
+    },
+    {
+      "video": "short_04_score_78.mp4",
+      "error": "No Blotato URL"
+    },
+    {
+      "video": "short_05_score_72.mp4",
+      "error": "No Blotato URL"
+    },
+    {
+      "video": "short_06_score_62.mp4",
+      "error": "No Blotato URL"
+    }
+  ],
+  "total": 11,
+  "success_count": 5,
+  "error_count": 6
+}

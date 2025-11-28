@@ -1,0 +1,52 @@
+{
+  "scheduled": [],
+  "errors": [
+    {
+      "video": "short_01_score_90.mp4",
+      "error": "{\"message\":\"Media must be uploaded to Blotato first.\"}"
+    },
+    {
+      "video": "short_02_score_86.mp4",
+      "error": "{\"message\":\"Media must be uploaded to Blotato first.\"}"
+    },
+    {
+      "video": "short_02_score_85.mp4",
+      "error": "No Cloudinary URL (file too large)"
+    },
+    {
+      "video": "short_01_score_82.mp4",
+      "error": "No Cloudinary URL (file too large)"
+    },
+    {
+      "video": "short_02_score_82.mp4",
+      "error": "{\"message\":\"Media must be uploaded to Blotato first.\"}"
+    },
+    {
+      "video": "short_03_score_78.mp4",
+      "error": "{\"message\":\"Media must be uploaded to Blotato first.\"}"
+    },
+    {
+      "video": "short_04_score_78.mp4",
+      "error": "No Cloudinary URL (file too large)"
+    },
+    {
+      "video": "short_04_score_78.mp4",
+      "error": "No Cloudinary URL (file too large)"
+    },
+    {
+      "video": "short_05_score_78.mp4",
+      "error": "{\"message\":\"Media must be uploaded to Blotato first.\"}"
+    },
+    {
+      "video": "short_05_score_72.mp4",
+      "error": "No Cloudinary URL (file too large)"
+    },
+    {
+      "video": "short_06_score_62.mp4",
+      "error": "No Cloudinary URL (file too large)"
+    }
+  ],
+  "total": 11,
+  "success_count": 0,
+  "error_count": 11
+}

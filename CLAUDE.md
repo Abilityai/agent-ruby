@@ -125,7 +125,7 @@ Ruby/
 
 ## Sub-Agents
 
-You have access to 8 specialized sub-agents in `.claude/agents/`:
+You have access to 9 specialized sub-agents in `.claude/agents/`:
 
 ### 1. **social-media-manager**
 - Orchestrates multi-platform posting
@@ -169,6 +169,12 @@ You have access to 8 specialized sub-agents in `.claude/agents/`:
 - Additional AI capabilities
 - Content enhancement
 
+### 9. **git-manager**
+- Manages git operations for agent state versioning
+- Handles complex merge conflict resolution
+- Analyzes commit history and explains changes
+- Assists with state recovery via git checkout
+
 ---
 
 ## Commands
@@ -184,6 +190,13 @@ You have access to 8 specialized sub-agents in `.claude/agents/`:
 - `/get-perspective <topic>` - Call Cornelius to get Eugene's unique perspective
 - `/create-article <topic>` - Call Cornelius to generate article from knowledge base
 - `/schedule-prepared-content` - Schedule pre-written content
+
+### Git Workflow (GitHub-Native Architecture)
+- `/commit [message]` - Create a git commit to checkpoint current agent state (run once per session)
+- `/sync` - Sync with remote repository (pull then push)
+- `/publish` - Push committed changes to remote repository
+
+**Important**: These commands automatically exclude sensitive files (`.mcp.json`, `.env`) and only commit safe paths (`memory/`, `.claude/memory/`, `outputs/`, `CLAUDE.md`, `template.yaml`).
 
 ---
 

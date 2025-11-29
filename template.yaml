@@ -1,16 +1,128 @@
 name: agent-ruby
 display_name: "Ruby - Social Media Manager"
-description: |
-  Multi-platform content production and distribution agent.
-  Handles video generation (HeyGen), social media posting (Blotato),
-  media management (Cloudinary), and content scheduling.
-version: "2.0"
+version: "2.1"
 author: "Eugene Vyborov"
+updated: "2025-11-29"
+
+# Short tagline for dashboard cards
+tagline: "Multi-platform content production and distribution"
+
+# Detailed description
+description: |
+  Multi-platform content production and distribution agent for social media.
+  Handles video generation (HeyGen), format conversion (Creatomate),
+  media management (Cloudinary/GoFile), analytics tracking (Metricool),
+  and posting to 9+ social platforms via Blotato API.
+
+# Example use cases - what you can ask this agent
+use_cases:
+  - "Post this to LinkedIn and Twitter now"
+  - "Create a 30-second AI avatar video about [topic]"
+  - "Schedule this content for next week at optimal times"
+  - "Upload this video to Instagram, TikTok, and YouTube"
+  - "What were my best performing posts last week?"
+  - "Generate an infographic carousel about [topic]"
+  - "Convert this horizontal video to vertical with captions"
+  - "Get Eugene's perspective on [topic] from knowledge base"
 
 # Resource requirements
 resources:
   cpu: "2"
   memory: "4g"
+
+# Sub-agents with descriptions
+sub_agents:
+  - name: social-media-manager
+    description: "Publishing content across platforms via Blotato. Handles media uploads, scheduling, and platform-specific requirements."
+  - name: metricool-manager
+    description: "Social media analytics across all platforms. Performance metrics, competitor analysis, and best posting times."
+  - name: video-generator
+    description: "Creatomate video processing. Horizontal to vertical conversion, karaoke captions, template rendering."
+  - name: ai-ruminator
+    description: "AI news analyzer and HeyGen script generator. Creates 30-second video scripts from trending topics."
+  - name: gemini-agent
+    description: "Gemini AI for content generation, image creation (Nano Banana), and research with real-time data."
+  - name: giphy-manager
+    description: "GIF and meme search specialist. Finds reaction GIFs and visual content for social media."
+  - name: video-repurposer
+    description: "Creates multi-platform posting schedules from video content and generated materials."
+  - name: git-manager
+    description: "Git operations for agent state versioning, conflict resolution, and state recovery."
+
+# Slash commands with descriptions
+commands:
+  - name: post-now
+    description: "Post content immediately to social platforms"
+  - name: schedule-post
+    description: "Schedule content for future posting"
+  - name: create-video
+    description: "Generate HeyGen video, convert to vertical, and post"
+  - name: generate-image
+    description: "Generate images using AI (Imagen 4 Ultra)"
+  - name: upload-media
+    description: "Upload media to Cloudinary and get public URL"
+  - name: clip-video
+    description: "Generate viral shorts from long-form video using Klap AI"
+  - name: get-perspective
+    description: "Get Eugene's perspective from knowledge base via Cornelius"
+  - name: create-article
+    description: "Generate full article from knowledge base via Cornelius"
+  - name: schedule-prepared-content
+    description: "Schedule pre-written content from Generated Content folders"
+  - name: commit
+    description: "Create git commit to checkpoint agent state"
+  - name: sync
+    description: "Sync agent state with remote repository"
+  - name: publish
+    description: "Push committed changes to remote repository"
+
+# MCP servers with descriptions
+mcp_servers:
+  - name: heygen
+    description: "AI avatar video generation (30-second limit)"
+  - name: twitter-mcp
+    description: "Native Twitter/X API for direct posting and search"
+  - name: cloudinary-asset-mgmt
+    description: "Media upload, storage, and CDN delivery"
+  - name: mcp-metricool
+    description: "Social media analytics and scheduling backup"
+  - name: aistudio
+    description: "Google Gemini AI for content and image generation"
+  - name: giphy
+    description: "GIF search and trending content"
+  - name: mermaid-diagram
+    description: "Diagram generation from text descriptions"
+  - name: video-audio-mcp
+    description: "Video and audio processing utilities"
+
+# Skills with descriptions
+skills:
+  - name: blotato-posting
+    description: "Multi-platform social media posting via Blotato API"
+
+# Supported platforms
+platforms:
+  - twitter
+  - linkedin
+  - instagram
+  - tiktok
+  - youtube
+  - threads
+  - bluesky
+  - facebook
+  - pinterest
+
+# Capabilities
+capabilities:
+  - multi_platform_posting
+  - video_generation
+  - video_conversion
+  - media_management
+  - content_scheduling
+  - analytics_tracking
+  - ai_image_generation
+  - gif_management
+  - knowledge_base_integration
 
 # Credential schema - Trinity uses this to inject secrets
 credentials:

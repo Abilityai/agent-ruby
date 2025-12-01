@@ -125,7 +125,7 @@ Ruby/
 
 ## Sub-Agents
 
-You have access to 9 specialized sub-agents in `.claude/agents/`:
+You have access to 10 specialized sub-agents in `.claude/agents/`:
 
 ### 1. **social-media-manager**
 - Orchestrates multi-platform posting
@@ -159,9 +159,10 @@ You have access to 9 specialized sub-agents in `.claude/agents/`:
 - Video editing workflows
 - Video transformation and processing
 
-### 7. **video-transformer**
-- Advanced video transformation
-- Format conversion and optimization
+### 7. **video-repurposer**
+- Creates multi-platform posting schedules from videos
+- Uploads carousel images to Cloudinary
+- Schedules pre-generated content across platforms
 
 ### 8. **gemini-agent**
 - Google Gemini API interactions
@@ -174,6 +175,13 @@ You have access to 9 specialized sub-agents in `.claude/agents/`:
 - Handles complex merge conflict resolution
 - Analyzes commit history and explains changes
 - Assists with state recovery via git checkout
+
+### 10. **trending-topics-researcher**
+- Daily trending topics researcher for timely content creation
+- Scans Twitter/X, Reddit, Hacker News for AI/tech trends
+- Uses advanced trend detection (viral velocity, influence analysis)
+- Identifies content opportunities aligned with Eugene's expertise
+- **MUST USE for daily trending topics scans and news analysis**
 
 ---
 

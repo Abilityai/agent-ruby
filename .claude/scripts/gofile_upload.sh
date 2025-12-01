@@ -5,24 +5,26 @@
 
 set -e
 
-# Load credentials from .env file
+# Load environment variables
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-ENV_FILE="${SCRIPT_DIR}/../../.env"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 
-if [ -f "$ENV_FILE" ]; then
-    set -a
-    source "$ENV_FILE"
-    set +a
+if [ -f "$PROJECT_ROOT/.env" ]; then
+    source "$PROJECT_ROOT/.env"
+else
+    echo "Error: .env file not found at $PROJECT_ROOT/.env"
+    echo "Please copy .env.example to .env and fill in your credentials"
+    exit 1
 fi
 
-# GoFile credentials (from environment variables)
+# GoFile credentials from environment
 ACCOUNT_ID="${GOFILE_ACCOUNT_ID}"
 API_TOKEN="${GOFILE_API_TOKEN}"
 ROOT_FOLDER="${GOFILE_ROOT_FOLDER}"
 
-# Verify credentials
+# Validate credentials are set
 if [ -z "$API_TOKEN" ] || [ -z "$ROOT_FOLDER" ]; then
-    echo "Error: GoFile credentials not set. Please configure .env file."
+    echo "Error: GoFile credentials not set in .env file"
     echo "Required: GOFILE_API_TOKEN, GOFILE_ROOT_FOLDER"
     exit 1
 fi

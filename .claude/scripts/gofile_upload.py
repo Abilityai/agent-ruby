@@ -10,29 +10,26 @@ import requests
 import json
 from pathlib import Path
 
-# Load .env file if it exists
-def load_env():
-    """Load environment variables from .env file"""
-    script_dir = Path(__file__).parent
-    env_file = script_dir / "../../.env"
-    if env_file.exists():
-        with open(env_file) as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith('#') and '=' in line:
-                    key, value = line.split('=', 1)
-                    os.environ.setdefault(key.strip(), value.strip())
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    project_root = Path(__file__).parent.parent.parent
+    env_path = project_root / '.env'
+    load_dotenv(env_path)
+except ImportError:
+    # dotenv not available, rely on environment variables being set
+    pass
 
-load_env()
+# GoFile credentials from environment
+ACCOUNT_ID = os.getenv("GOFILE_ACCOUNT_ID")
+API_TOKEN = os.getenv("GOFILE_API_TOKEN")
+ROOT_FOLDER = os.getenv("GOFILE_ROOT_FOLDER")
 
-# GoFile credentials (from environment variables)
-ACCOUNT_ID = os.getenv("GOFILE_ACCOUNT_ID", "")
-API_TOKEN = os.getenv("GOFILE_API_TOKEN", "")
-ROOT_FOLDER = os.getenv("GOFILE_ROOT_FOLDER", "")
-
+# Validate credentials are set
 if not API_TOKEN or not ROOT_FOLDER:
-    print("Error: GoFile credentials not set. Please configure .env file.")
-    print("Required: GOFILE_API_TOKEN, GOFILE_ROOT_FOLDER")
+    print("Error: GoFile credentials not set in environment")
+    print("Required environment variables: GOFILE_API_TOKEN, GOFILE_ROOT_FOLDER")
+    print("Please ensure .env file exists with these values")
     sys.exit(1)
 
 

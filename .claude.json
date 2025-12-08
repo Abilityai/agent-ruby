@@ -1,0 +1,40 @@
+{
+  "installMethod": "unknown",
+  "autoUpdates": true,
+  "cachedStatsigGates": {
+    "tengu_disable_bypass_permissions_mode": false,
+    "tengu_tool_pear": false,
+    "tengu_web_tasks": true
+  },
+  "firstStartTime": "2025-12-03T02:23:08.720Z",
+  "userID": "296c8b81b7da3bd6eb10237d9d5b606dcca94b28e6cd5cfec986d3e8ca34ec1c",
+  "sonnet45MigrationComplete": true,
+  "opus45MigrationComplete": true,
+  "githubRepoPaths": {
+    "abilityai/agent-ruby": [
+      "/home/developer"
+    ]
+  },
+  "projects": {
+    "/home/developer": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "Since there are no files listed as \"modified by user\" and the files modified by other users appear to be mostly configuration, documentation, and scripts rather than core application logic, I cannot reliably identify five files that meet your criteria of:",
+        "- Frequently modified",
+        "- Representing core application logic",
+        "- Being diverse and not auto-generated/dependencies/configuration",
+        "",
+        "Please provide a more complete git history dataset with actual file modification counts."
+      ],
+      "exampleFilesGeneratedAt": 1764728591898
+    }
+  }
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "debug": "Initializing HTTP transport to http://mcp-server:8080/mcp",
+    "timestamp": "2025-12-05T12:26:02.019Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "Node version: v20.19.5, Platform: linux",
+    "timestamp": "2025-12-05T12:26:02.020Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "Environment: {\"NODE_OPTIONS\":\"not set\",\"UV_THREADPOOL_SIZE\":\"default\",\"HTTP_PROXY\":\"not set\",\"HTTPS_PROXY\":\"not set\",\"NO_PROXY\":\"not set\"}",
+    "timestamp": "2025-12-05T12:26:02.021Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "Proxy options: default",
+    "timestamp": "2025-12-05T12:26:02.057Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "HTTP transport options: {\"url\":\"http://mcp-server:8080/mcp\",\"headers\":{\"User-Agent\":\"claude-code/2.0.53\",\"Authorization\":\"Bearer trinity_mcp_Uva_SVDe4-w1Dx3XjX0ZH-27UKyF-DfCxpj2YMPh4TI\"},\"hasAuthProvider\":true,\"timeoutMs\":60000}",
+    "timestamp": "2025-12-05T12:26:02.058Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "HTTP transport created successfully",
+    "timestamp": "2025-12-05T12:26:02.059Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "Client created, setting up request handler",
+    "timestamp": "2025-12-05T12:26:02.084Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "Starting connection with timeout of 30000ms",
+    "timestamp": "2025-12-05T12:26:02.085Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "Testing basic HTTP connectivity to http://mcp-server:8080/mcp",
+    "timestamp": "2025-12-05T12:26:02.086Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "Parsed URL: host=mcp-server, port=8080, protocol=http:",
+    "timestamp": "2025-12-05T12:26:02.087Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "No token data found",
+    "timestamp": "2025-12-05T12:26:02.090Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "No token data found",
+    "timestamp": "2025-12-05T12:26:02.291Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "No token data found",
+    "timestamp": "2025-12-05T12:26:02.305Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "Successfully connected to http server in 288ms",
+    "timestamp": "2025-12-05T12:26:02.307Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "Connection established with capabilities: {\"hasTools\":true,\"hasPrompts\":false,\"hasResources\":false,\"serverVersion\":{\"name\":\"trinity-orchestrator\",\"version\":\"1.0.0\"}}",
+    "timestamp": "2025-12-05T12:26:02.307Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "No token data found",
+    "timestamp": "2025-12-05T12:26:02.310Z",
+    "sessionId": "900a46f1-d496-4a09-9ce8-8b23d782ccb7",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "HTTP connection closed after 7s (cleanly)",
+    "timestamp": "2025-12-05T12:26:10.156Z",
+    "sessionId": "5478fe42-7a6b-46d4-be9c-bcd4663fbc5c",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "HTTP connection dropped after 7s uptime",
+    "timestamp": "2025-12-05T12:26:10.160Z",
+    "sessionId": "5478fe42-7a6b-46d4-be9c-bcd4663fbc5c",
+    "cwd": "/home/developer"
+  },
+  {
+    "debug": "Connection error: SSE stream disconnected: AbortError: This operation was aborted",
+    "timestamp": "2025-12-05T12:26:10.161Z",
+    "sessionId": "5478fe42-7a6b-46d4-be9c-bcd4663fbc5c",
+    "cwd": "/home/developer"
+  }
+]

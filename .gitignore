@@ -39,3 +39,6 @@ venv/
 
 # Node
 node_modules/
+agent-server.py
+startup.sh
+.local/

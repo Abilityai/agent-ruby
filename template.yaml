@@ -167,6 +167,48 @@ credentials:
     - GOFILE_ACCOUNT_ID
     - GOFILE_ROOT_FOLDER
 
+# Custom metrics - displayed in Trinity UI Metrics tab
+metrics:
+  - name: posts_published
+    type: counter
+    label: "Posts"
+    description: "Content published across platforms"
+
+  - name: videos_generated
+    type: counter
+    label: "Videos"
+    description: "AI videos generated via HeyGen"
+
+  - name: platforms_active
+    type: gauge
+    label: "Platforms"
+    description: "Number of platforms posted to"
+
+  - name: content_scheduled
+    type: counter
+    label: "Scheduled"
+    description: "Posts scheduled for future"
+
+  - name: collaborations
+    type: counter
+    label: "Collaborations"
+    description: "Requests to other agents (Cornelius, etc.)"
+
+  - name: agent_state
+    type: status
+    label: "State"
+    description: "Current agent operational state"
+    values:
+      - value: "active"
+        color: "green"
+        label: "Active"
+      - value: "publishing"
+        color: "blue"
+        label: "Publishing"
+      - value: "idle"
+        color: "gray"
+        label: "Idle"
+
 # Git configuration
 git:
   push_enabled: true

@@ -1,0 +1,11 @@
+{
+  "_comment": "Configure your Blotato account IDs here. Get them from my.blotato.com",
+  "account_ids": {
+    "youtube": "YOUR_YOUTUBE_ACCOUNT_ID",
+    "instagram": "YOUR_INSTAGRAM_ACCOUNT_ID",
+    "linkedin": "YOUR_LINKEDIN_ACCOUNT_ID",
+    "twitter": "YOUR_TWITTER_ACCOUNT_ID",
+    "threads": "YOUR_THREADS_ACCOUNT_ID",
+    "tiktok": "YOUR_TIKTOK_ACCOUNT_ID"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "post": {
+    "content": {
+      "text": "Building Large Apps with Claude Code + Docker\n\nCEO of Ability.ai demonstrates how to use Claude Code with Docker isolation to build and maintain complex applications with AI agents.\n\nKey features:\n- Docker containerization for safe development\n- AI agent memory management\n- Sub-agents and custom commands\n- Complete workflow automation\n\nFull tutorial & code: https://github.com/Abilityai/project_kami\n\n#ClaudeCode #AI #Docker #AIAgents #SoftwareDevelopment #Coding #AITools #Programming #DevTools #Anthropic",
+      "mediaUrls": ["https://database.blotato.io/storage/v1/object/public/public_media/9c4a286d-2192-49bf-91d3-489c55f486db/322135d8-d7ee-4c69-b3af-7934f901dd88.mp4"],
+      "platform": "youtube"
+    },
+    "target": {
+      "targetType": "youtube"
+    }
+  }
+}

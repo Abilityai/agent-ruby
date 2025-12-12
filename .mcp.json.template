@@ -1,0 +1,89 @@
+{
+  "mcpServers": {
+    "mermaid-diagram": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@peng-shawn/mermaid-mcp-server"
+      ]
+    },
+    "twitter-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@enescinar/twitter-mcp"
+      ],
+      "env": {
+        "API_KEY": "${TWITTER_API_KEY}",
+        "API_SECRET_KEY": "${TWITTER_API_SECRET_KEY}",
+        "ACCESS_TOKEN": "${TWITTER_ACCESS_TOKEN}",
+        "ACCESS_TOKEN_SECRET": "${TWITTER_ACCESS_TOKEN_SECRET}"
+      }
+    },
+    "heygen": {
+      "command": "uvx",
+      "args": [
+        "heygen-mcp"
+      ],
+      "env": {
+        "HEYGEN_API_KEY": "${HEYGEN_API_KEY}"
+      }
+    },
+    "video-audio-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@misbahsy/video-audio-mcp"
+      ],
+      "env": {}
+    },
+    "cloudinary-asset-mgmt": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "--package",
+        "@cloudinary/asset-management",
+        "--",
+        "mcp",
+        "start",
+        "--api-key",
+        "${CLOUDINARY_API_KEY}",
+        "--api-secret",
+        "${CLOUDINARY_API_SECRET}",
+        "--cloud-name",
+        "${CLOUDINARY_CLOUD_NAME}"
+      ]
+    },
+    "aistudio": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "aistudio-mcp-server"
+      ],
+      "env": {
+        "GEMINI_API_KEY": "${GEMINI_API_KEY}"
+      }
+    },
+    "giphy": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-giphy"
+      ],
+      "env": {
+        "GIPHY_API_KEY": "${GIPHY_API_KEY}"
+      }
+    },
+    "mcp-metricool": {
+      "command": "uvx",
+      "args": [
+        "--upgrade",
+        "mcp-metricool"
+      ],
+      "env": {
+        "METRICOOL_USER_TOKEN": "${METRICOOL_USER_TOKEN}",
+        "METRICOOL_USER_ID": "${METRICOOL_USER_ID}"
+      }
+    }
+  }
+}
